@@ -130,7 +130,7 @@ SINCE -30d
 
 ## Project Structure
 
-```json
+```plaintext
 shopify-ai-analytics/
 ├── rails_api/
 │   └── app/controllers/api/v1/questions_controller.rb

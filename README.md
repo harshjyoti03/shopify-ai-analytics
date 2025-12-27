@@ -72,7 +72,7 @@ Identify whether the question relates to:
   "answer": "Based on the last 30 days, you sell around 10 units per day. You should reorder at least 70 units to avoid stockouts next week.",
   "confidence": "medium"
 }
-
+```
 
 ## 🔐 Shopify OAuth Status
 
@@ -104,7 +104,7 @@ FROM orders
 SHOW sum(quantity) AS total_units_sold
 GROUP BY product_id
 SINCE -30d
-
+```
 
 ### This demonstrates:
 - Knowledge of Shopify analytics datasets
@@ -137,6 +137,7 @@ shopify-ai-analytics/
 ├── python_ai/
 │   └── main.py
 └── README.md
+```
 
 ## Design Philosophy
 
